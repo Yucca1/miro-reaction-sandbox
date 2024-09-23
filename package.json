@@ -1,0 +1,30 @@
+{
+  "name": "miro-reaction",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.3"
+  },
+  "devDependencies": {
+    "@mirohq/websdk-types": "^2.16.1",
+    "@types/node": "^22.5.5",
+    "@types/webextension-polyfill": "^0.10.0",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.0",
+    "vite-plugin-web-extension": "^4.0.0",
+    "vue-tsc": "^1.2.0",
+    "webextension-polyfill": "^0.10.0"
+  }
+}
